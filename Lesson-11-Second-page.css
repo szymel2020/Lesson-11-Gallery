@@ -1,5 +1,5 @@
 body {
-	display: flex;
+	
 	background: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 90%;
@@ -32,15 +32,35 @@ body {
 
 }
 
-footer {
-	display: flex;
-	
-	width: auto;
-	
-	
-	align-items: center;
-	color: deeppink;
-	padding: 10px;
-	background-color: #777;
-
+div {
+	height:300px;
 }
+
+footer {
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 2em;
+	color: deeppink;
+	background-color: #777;
+}
+
+.signature {
+	font-size: .28em;
+	display:flex;
+	justify-content: flex-end;
+	text-align: center;
+	background-color: #e0e0e0;
+}
+
+
+
+
+
+
+
+	
+	
+
