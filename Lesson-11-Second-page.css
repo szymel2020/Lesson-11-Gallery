@@ -1,16 +1,46 @@
 body {
-	background: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg); 
+	display: flex;
+	background: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 90%;
-	opacity: 0.1;
+
 	position: absolute;
 	background-attachment: fixed;
 	animation: example 23s infinite;
 }
+
 @keyframes example {
-  0%   { background-size: 10% 20%; }
-  25%  { background-size: 30% 50%;  }
-  50%  { background-size: 70% 70%; }
-  100% { background-size: 100% 90%; }
+	0% {
+		background-size: 10% 20%;
+		background: opacity: 0.2
+	}
+
+	25% {
+		background-size: 30% 50%;
+		background: opacity: 0.2
+	}
+
+	50% {
+		background-size: 70% 70%;
+		background: opacity: 0.2
+	}
+
+	100% {
+		background-size: 100% 90%;
+		background: opacity: 0.2
+	}
+
+}
+
+footer {
+	display: flex;
 	
+	width: auto;
+	
+	
+	align-items: center;
+	color: deeppink;
+	padding: 10px;
+	background-color: #777;
+
 }
