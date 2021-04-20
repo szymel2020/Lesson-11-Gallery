@@ -1,6 +1,16 @@
 body {
-	background-image: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg); 
+	background: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg); 
 	background-repeat: no-repeat;
 	background-size: 100% 90%;
+	opacity: 0.1;
+	position: absolute;
 	background-attachment: fixed;
+	animation: example 23s infinite;
+}
+@keyframes example {
+  0%   { background-size: 10% 20%; }
+  25%  { background-size: 30% 50%;  }
+  50%  { background-size: 70% 70%; }
+  100% { background-size: 100% 90%; }
+	
 }
