@@ -1,35 +1,24 @@
 body {
 	display: flex;
-	background: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 90%;
-
 	position: absolute;
-	background-attachment: fixed;
-	animation: example 23s infinite;
+}
+
+img {
+	width: 222px;
+	height: 120px;
+	opacity: 0.4;
 }
 
 @keyframes example {
-	0% {
-		background-size: 10% 20%;
-		background: opacity: 0.2
-	}
-
-	25% {
-		background-size: 30% 50%;
-		background: opacity: 0.2
-	}
-
-	50% {
-		background-size: 70% 70%;
-		background: opacity: 0.2
-	}
-
-	100% {
-		background-size: 100% 90%;
-		background: opacity: 0.2
-	}
-
+	0%   { opacity: 0.1 ;}
+  25%  { opacity: 0.2  ;}
+  50%  { opacity: 0.5 ;}
+  100% { opacity: 0.7 ;}
+  100% { opacity: 0.9 ;}
+  100% { opacity: 0.7 ;}
+  100% { opacity: 0.5 ;}
+  100% { opacity: 0.3 ;}
+  100% { opacity: 0.2 ;}
 }
 
 div {
