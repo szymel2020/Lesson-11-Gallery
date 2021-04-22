@@ -1,13 +1,12 @@
-body {
-	display: flex;
-	position: absolute;
-}
 
-img {
-	width: 100px;
-	height: auto;
-	animation: example 5s linear 2s infinite alternate;
+
+body {
+background-image: url(https://i.pinimg.com/originals/5c/c0/1f/5cc01f231bada675f4f8e0af38fca868.jpg); opacity: 0.3 ; 
+background-size: 100% 100%;
+background-attachment:scroll; 
+	
 }
+animation: example 5s linear 2s infinite alternate;		
 
 @keyframes example {
 	0%   { opacity: 1 ;}
@@ -15,7 +14,7 @@ img {
   25%  { opacity: 0.9 ;}
   35% { opacity: 0.8 ;}
   45% { opacity: 0.7 ;}
-  55% { opacity: 0.6; transform:rotate(10deg);}
+  55% { opacity: 0.6; }
   65% { opacity: 0.5 ;}
   75% { opacity: 0.4 ;}
   85% { opacity: 0.3 ;}
