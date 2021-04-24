@@ -8,14 +8,15 @@ background-attachment:fixed;
 }
 
 
-.flex-menu {
+
+.menu {
 	display: flex;
 	width:auto;
 	justify-content: flex-start;
 	background-color: rgba(119, 119, 119, 0.51);
 }
 
-.flex-menu>div {
+.menu>div {
 	background-color:coral;
 	width: 180px;
 }
