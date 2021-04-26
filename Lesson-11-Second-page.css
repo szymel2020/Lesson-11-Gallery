@@ -19,6 +19,7 @@ background-attachment:fixed;
 .menu>button {
 	display: flex;
 	background-color: rgb(247, 84, 228);
+	color: white;
 	width: 180px;
 	height: 40px;
 	margin: 3px;
@@ -28,14 +29,30 @@ background-attachment:fixed;
 }
 
 button:hover {
-	background-color: yellow;
-	color:  red;
+	background-color: white;
+	color:  rgb(247, 84, 228);
 	font-weight: bold;
-	font-size: 1.2em;
+	
+	box-shadow:2px 2px 25px 2px rgb(255, 23, 228);
 }
 
 #foto1 {
+	display: flex;
+	flex-wrap: wrap;
+	
 	background-color: pink;
+	color: purple;
+	width: 1503,2px;
+	height: 500px;
+	padding: 15px;
+	text-align: center;
+}
+
+#foto2 {
+	display: flex;
+	flex-wrap: wrap;
+	
+	background-color: rgb(173, 253, 142);
 	color: purple;
 	width: 1503,2px;
 	height: 500px;
@@ -45,6 +62,7 @@ button:hover {
 
 img {
 	opacity: .5;
+	padding: 5px;
 }
 
 img:hover {
