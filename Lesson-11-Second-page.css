@@ -60,6 +60,18 @@ button:hover {
 	text-align: center;
 }
 
+#foto3 {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	background-color: rgb(102, 203, 243);
+	color: purple;
+	width: 1503,2px;
+	height: 500px;
+	padding: 15px;
+	text-align: center;
+}
+
 img {
 	opacity: .5;
 	padding: 5px;

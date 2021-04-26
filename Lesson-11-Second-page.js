@@ -11,3 +11,10 @@ $(function() {
         
     });
 });
+
+$(function() {
+    $("#menu3").click(function() {
+        $("#foto3").slideToggle(3500);
+        
+    });
+});
