@@ -18,3 +18,9 @@ $(function() {
         
     });
 });
+
+$(function () {
+  $("#menu4").click(function () {
+    $("#foto4").slideToggle(3500);
+  });
+});
