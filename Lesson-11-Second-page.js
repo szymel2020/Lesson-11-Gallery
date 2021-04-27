@@ -1,4 +1,4 @@
-$(function() {
+ $(function() {
     $("#menu1").click(function() {
         $("#foto1").slideToggle(3500);
         
@@ -24,3 +24,4 @@ $(function () {
     $("#foto4").slideToggle(3500);
   });
 });
+
