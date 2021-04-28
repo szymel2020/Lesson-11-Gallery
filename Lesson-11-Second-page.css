@@ -41,7 +41,7 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	flex-wrap:nowrap;
-	position: sticky;
+	justify-content:space-around;
 }
 
 #foto1 {
