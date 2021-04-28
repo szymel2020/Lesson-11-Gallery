@@ -37,15 +37,11 @@ button:hover {
 	box-shadow:2px 2px 25px 2px rgb(255, 23, 228);
 }
 
-#foto0 {
-	display: flex;
-	flex-direction: row;
-}
-
 #foto1 {
 	display: flex;
 	flex-wrap: wrap;
-	
+	float: left;
+	overflow:scroll;
 	background-color: pink;
 	color: purple;
 	width: 375.8px;
@@ -54,9 +50,16 @@ button:hover {
 	text-align: center;
 }
 
+#foto0 {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
 #foto2 {
 	display: flex;
 	flex-wrap: wrap;
+	float: left;
 	
 	background-color: rgb(173, 253, 142);
 	color: purple;
@@ -69,7 +72,7 @@ button:hover {
 #foto3 {
 	display: flex;
 	flex-wrap: wrap;
-	
+	float: left;
 	background-color: rgb(102, 203, 243);
 	color: purple;
 	width: 375.8px;
@@ -82,7 +85,7 @@ button:hover {
 	
 	display: flex;
 	flex-wrap: wrap;
-	position: relative;
+	float: left;
 	background-color: rgb(240, 255, 104);
 	color: purple;
 	width: 375.8px;
