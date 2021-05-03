@@ -59,7 +59,7 @@ button:hover {
 
 #foto2 {
  	float: left;
-	
+	overflow: scroll;
 	background-color: rgb(173, 253, 142);
 	color: purple;
 	width: 375.8px;
