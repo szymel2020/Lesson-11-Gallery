@@ -46,37 +46,50 @@ button:hover {
 
 #foto1 {
 	
-	
-	
+	float: left ;
+	overflow:scroll;
 	background-color: pink;
 	color: purple;
-	
+	width: 375.8px;
+	height: 500px;
+	padding: 15px;
 	text-align: center;
 }
 
 
 #foto2 {
 	
-	
+ 	float: left;
+	overflow: scroll;
 	background-color: rgb(173, 253, 142);
 	color: purple;
-	
+	width: 375.8px;
+	height: 500px;
+	padding: 15px;
 	text-align: center;
 }
 
 #foto3 {
 	
+	float: left;
+	overflow: scroll;
 	background-color: rgb(102, 203, 243);
 	color: purple;
-	
+	width: 375.8px;
+	height: 500px;
+	padding: 15px;
 	text-align: center;
 }
 
 #foto4 {
-	
+	position: static;
+	float: left;
+	overflow: scroll;
 	background-color: rgb(240, 255, 104);
 	color: purple;
-	
+	width: 375.8px;
+	height: 500px;
+	padding: 15px;
 	text-align: center;
 }
 
